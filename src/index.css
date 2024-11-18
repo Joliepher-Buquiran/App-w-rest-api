@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  transition: background-color 0.3s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 16px;
+}
